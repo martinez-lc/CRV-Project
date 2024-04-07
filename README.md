@@ -1,5 +1,7 @@
 # Guide de Déploiement Kubernetes pour Redis, Node.js, React, Prometheus et Grafana
 
+![Infraestructure](https://github.com/martinez-lc/CRV-Project/blob/main/Infrastructure.png)
+
 Ce document décrit comment déployer une infrastructure Kubernetes incluant Redis, Node.js, React, Prometheus et Grafana.
 
 ## Prérequis
