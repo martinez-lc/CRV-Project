@@ -1,0 +1,13 @@
+# react-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: react-app
+spec:
+  selector:
+    app: react-app
+  ports:
+  - protocol: TCP
+    port: 80  # El puerto en el que el servicio está expuesto
+    targetPort: 80  # El puerto del contenedor
+  type: LoadBalancer
